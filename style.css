@@ -1,0 +1,207 @@
+body{
+	margin: 0px;
+}
+
+#body-header
+{
+	height: 55vh;  
+	top: 0;
+	opacity: 1;
+	background-image: url("headerimage.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	margin-top:0rem ;
+	border: ;
+}
+
+/*horizontal list*/
+.horizontal-list{
+	list-style: none; 
+
+}
+
+.horizontal-list li{
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+
+}
+
+.horizontal-list li a{
+	color: white;
+	text-decoration: none;
+
+}
+
+.horizontal-list li a: hover{
+	color: darkred;
+	border-bottom: 1px solid white;
+	transition: 0.5s border-bottom 4s;
+
+}
+
+
+.text-center{
+	text-align: center;
+	margin: 0;
+}
+
+#name-social-container{
+	margin-top: 20vh;
+
+}
+
+#my-name{
+	font-size: 4rem;
+	letter-spacing: 0.1rem;
+	color: white;
+	font-weight: 700;
+	margin-bottom: 0.5rem;
+	margin-top: -5.5rem;
+	}
+
+/* About Section Start*/
+
+#about{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+#my-image{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -17vh;
+}
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+#about{
+	font-size: 30px;
+	background-color: #fff3e0;
+
+}
+
+#about-para
+{
+	font-size: 20px;
+	position: center;
+   margin: 0px 165px 0px 165px;
+   padding: 0px 0px 52px 0px;
+   
+}
+
+
+/*starting with skills*/
+#skills{
+	background-color: #b7fdb77a;
+}
+#skills-text{
+	font-size: 30px;
+}
+.buttons{
+	list-style: none; 
+	color: whitesmoke;
+}
+
+.buttons li{
+	overflow: hidden;
+	text-align: center;
+	white-space: nowrap;
+	display: inline-block;
+	margin: 7px 34px 34px 0px;
+	width: 176px;
+	height: 0px;
+	background-color: #538312;
+	font-size: 20px;
+	border-style: solid;
+	padding: 14px 51px 41px 16px;
+	border-radius: 19px;
+
+}
+
+/*starting with experience section*/
+#experience{
+	
+	background-color: #f9a1b34a;
+	
+	
+}
+#experience h1{
+	style: none;
+	font-size: 30px;
+	
+}
+#experience-section{
+
+	margin: 27px 97px 0px 105px; 
+	font-size: 20px;
+}
+
+
+
+/*Education section starts here*/
+#education{
+	background-color: #ffff0052;
+	margin: -24px 0px 0px 0px;
+}
+
+#education-heading{
+	font-size: 30px;
+}
+#education-info{
+	font-size: 15px;
+}
+
+
+/*Contact section starts here*/
+#contact-ul li{
+   display: inline-block;
+}
+
+#contact{
+
+	margin: -23px 0px 0px 0px;
+	background-color: darkblue;
+}
+#contact-heading{
+	font-size: 30px;
+	color: white;
+	
+}
+#contact forms input
+{
+   margin: 0px 0px 20px 0px;
+   height: 30px;
+   width: 336px;
+   border-radius: 9px;
+   border-style: outset;
+}
+
+/*Contact section 2 starts here*/
+#getintouch{
+	color: white;
+	margin-top: 67px;
+	font-size: 30px;
+}
+
+#getintouch-para{
+	color: white;
+	margin: 13px 74px 69px 74px;
+}
+
+#my-address{
+	margin: 13px 74px 69px 74px;
+	font-size: 20px;
+	color: white;
+}
+
+
+
+#my-address li{
+	list-style: none;
+	font-size: 15px;
+}
